@@ -1,0 +1,80 @@
+#body{
+    height: 100vh;
+    background-image: url(2جديد.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+header{
+    background-image: url(14.PNG);
+    background-size: cover;
+    height: 160px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#hd1{
+    position: absolute;
+    top: 50%;
+    right:  0%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+#hd2{
+    position: absolute;
+    top: 50%;
+    right:  40%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+}
+
+#sct1{
+    border: rgb(173, 32, 32) 5px double;
+    float: right;
+    width: 60%;
+    background-color: rgba(0, 0, 0 ,0.2);
+    color: rgba(0, 0, 0 ,0.5);
+    font-size: 30px;
+}
+.input{
+    color: white;
+    padding-left: 50px;
+}
+.li a , .input{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.box
+    {
+        width: 250px;
+        height: 35px;
+        background-color: rgba(0, 0, 0 ,0.2);
+        border: 1px solid #ccc;
+        text-align: center;
+        color: white;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 20px;
+    }
+   
+#sct2{
+    border: rgb(173, 32, 32) 5px double;
+    padding: 10px;
+    clear: both;
+    background-color: rgba(0, 0, 0 ,0.2);
+}
+.img{
+    width: 120px;
+    height: 120px;
+    margin-right: 5px;
+    clear:both;
+}
+#fot{
+    background-color: rgba(0, 0, 0 ,0.2);
+    border: rgb(196, 48, 22) 5px double;
+  
+}
